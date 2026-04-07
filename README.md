@@ -57,18 +57,6 @@ oxidread/
 └── src/
     ├── lib.rs
     ├── readline/
-    │   ├── mod.rs
-    │   ├── error.rs
-    │   ├── line_buffer.rs      # Unicode-aware text buffer
-    │   ├── history.rs
-    │   ├── prompt.rs
-    │   ├── keymaps.rs
-    │   ├── completion.rs
-    │   └── editor.rs           # Main readline() API
     ├── ncurses/
-    │   ├── mod.rs
-    │   ├── screen.rs
-    │   ├── window.rs
-    │   └── attributes.rs
     └── integration/
         └── mod.rs              # Readline inside ncurses windows
